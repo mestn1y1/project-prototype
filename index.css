@@ -173,10 +173,16 @@ a {
   margin: 0 auto;
   margin-bottom: 116px;
 }
+
 .features-list {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
+  /* margin-left: auto; */
+  max-height: 600px;
 }
+
 .features-item {
   margin-bottom: 54px;
   max-width: 223px;
@@ -193,4 +199,12 @@ a {
   font-weight: 500;
   font-size: 14px;
   color: #000;
+}
+
+.features-img {
+  /* margin-left: auto; */
+  /* position: absolute;
+  left: 300px;
+  top: -50px;
+  margin: 0; */
 }
